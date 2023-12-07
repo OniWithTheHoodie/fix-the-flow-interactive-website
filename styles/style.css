@@ -451,9 +451,9 @@ header svg{
         padding: 0 0 02em;
     }
 
-    /*  Code genest voor Intersection Observer hier heb ik de elementen 
-    verborgen door
-    1. Opacity op 0
+   /* Intersection Observer scroll effect */
+   
+    /* 1. Opacity op 0 
     2. position relative haalt de content weg van originele positie
     3. rechts geplaatst met 2em
     4. transition alles met 0.8*/
