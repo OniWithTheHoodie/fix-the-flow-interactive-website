@@ -2,7 +2,7 @@
 
 
 ## Beschrijving
-Voor school heb ik de opdracht gekregen om een interactie te maken met site dat word gemaakt voor b-Rain. hiervoor wou ik dat als de pagina geladen is met een scroll effect de pagina in beeld brengen.
+Voor school heb ik de opdracht gekregen om een interactie te maken voor de site dat word gemaakt voor b-Rain. hiervoor wou ik dat als de pagina geladen is met een scroll effect de pagina in beeld brengen.
 
 ## Foto van contact pagina
 ![Design mobiel](<Images/Schermafbeelding 2023-12-07 132756.png>)
