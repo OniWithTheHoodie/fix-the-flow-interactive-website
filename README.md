@@ -1,37 +1,26 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# b-Rain component contact pagina
+# b-Rain Interactie met functie intesection obbserver javascript
 
 
 ## Beschrijving
-Voor de opdrachtgever van b-Rain heb ik een contact pagina gemaakt waarbij het de bedoeling is dat je gegevens invoert en die kunt versturen zodat de opdrachtgever contact kan nemen.
-met potentiele investeerders. Ik heb dit gemaakt aan de hand van een design en de huistijl van b-Rain.
+Voor school heb ik de opdracht gekregen om een interactie te maken met site dat word gemaakt voor b-Rain. hiervoor wou ik dat als de pagina geladen is met een scroll effect de pagina in beeld brengen.
 
 ## Foto van contact pagina
-![foto contact pagina](<Schermafbeelding 2023-11-28 122113.png>)
+![Design mobiel](<Images/Schermafbeelding 2023-12-07 132756.png>)
+
+![Design tablet](<Schermafbeelding 2023-12-07 133400.png>)
+
+![Design Desktop](<Schermafbeelding 2023-12-07 134236.png>)
 
 ## Link naar Github Pages
-https://daan645.github.io/look-and-feel-corporate-identity/
+https://oniwiththehoodie.github.io/fix-the-flow-interactive-website/
 
 ## Kenmerken
-Ik heb voor het bouwen van de contact pagina een section gemaakt waarin een form zit met input velden waar je gegevens in kunt voeren
-Data dat ingevoerd kan worden zijn naam, e-mail en telefoonnummer.
-Met daarbij een verzend button.
-belangerijk is dat er rekening gehouden wordt met huistijl van het bedrijf b-Rain kleuren en fonts moeten daaraan voldoen.
+Hiervoor heb ik gekozen om de h1, h2 met groene border de paragraaf met tekst en afbeelding een scroll effect te geven. het idee is om met css eerst de html uitbeeld te zetten en het vervolgens weer terug te roepen met de javascript functie genaamd intersection observer
 
-voor css om het makkelijk te houden is er een root gebruikt voor de huisstijl zodat het makkelijk bruikbaar zou zijn.
-Responsiveness voor verschillende devices is belangerijk.
-voor responsiveness heb ik voor Mobiel, tablet flexbox gebruikt en desktop grid.
-Belangerijk is omdat ik mijn eigen taak heb binnen het project ervoor te zorgen dat ik mij zoveel mogelijk hou aan de afgesproken conventies.
-comments zodat onderdelen binnen de code makkelijk terug te vinden is.
-Ik heb mijn code genest binnen mijn css en geprobeerd mijn html zo simentic mogelijk te houden.
-goede code structuur en dat het leesbaar is ik vind het prettig of stap voor stap te werken en van boven naar beneden te werken.
+de css elementen die ik heb gekozen heb ik op opacity van 0 gezet en een class gemaakt dat het weer in beeld brengt met een opacity van 1.
+
+met javascript maak ik een functie aan een variable die de content houd en ik met een callback functie terug roep door de html elementen te targeten met classlist om ze in beeld te brengen
 
 ## Bronnen
-Heb ik w3schools gebruikt, MDN, CSS-tricks voor flexbox en grid, stackoverflow voor eventueele oplossingen waar ik tegen aanliep dat anderen online ook naar hadden gevraagt.
+Heb ik w3schools gebruikt, MDN, stackoverflow en youtube voor eventueele oplossingen waar ik tegen aanliep dat anderen online ook naar hadden gevraagt.
 
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
