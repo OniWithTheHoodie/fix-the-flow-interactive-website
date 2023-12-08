@@ -22,5 +22,5 @@ de css elementen die ik heb gekozen heb ik op opacity van 0 gezet en een class g
 met javascript maak ik een functie aan een variable die de content houd en ik met een callback functie terug roep door de html elementen te targeten met classlist om ze in beeld te brengen
 
 ## Bronnen
-Heb ik w3schools gebruikt, MDN, stackoverflow en youtube voor eventueele oplossingen waar ik tegen aanliep dat anderen online ook naar hadden gevraagt.
+Heb ik w3schools gebruikt, MDN en stackoverflow voor eventueele oplossingen waar ik tegen aanliep dat anderen online ook naar hadden gevraagt.
 
