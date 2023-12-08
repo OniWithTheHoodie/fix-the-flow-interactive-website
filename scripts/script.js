@@ -45,15 +45,16 @@ function setup() {
     observer.observe(h1);
 
     const h2 = document.querySelector('.h2-observe');
-    observer.observe(h2)
+    observer.observe(h2);
 
     // Er zijn meerdere paragrafen dus hier gebruik ik queryselector all om alle "p" te selecteren en in for each loop alles op te roepen
     const paras = document.querySelectorAll('.p-observe');
     paras.forEach(p => observer.observe(p));
 
     // const button = document.querySelector('primary--button');
-    // observer.observe('primary--button');
+    // observer.observe('.primary--button');
 
-    const img = document.querySelector('img-hero');
-    observer.observe(img)
+    
+    const img = document.querySelector('.img-hero');
+    observer.observe(img);
 }
