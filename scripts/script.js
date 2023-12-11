@@ -31,7 +31,7 @@ function setup() {
         // hiervoor maak ik een for each loop voor alles dat is ingevoerd met isIntersecting zeg ik dat als het intersect focus de specifieke class naam in mijn css met de naam show en voeg het toe
         entries.forEach(entery => {
             if(entery.isIntersecting) {
-                entery.target.classList.add('show--text');
+                entery.target.classList.add('show--content');
                 // als show is geobserveerd dan wil ik het niet meer observeren met unobserve
                 observer.unobserve(entery.target);
             }else {

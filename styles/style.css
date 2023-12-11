@@ -485,16 +485,16 @@ header svg{
             transition: 0.8s ease-out;
         }
     
-    /* button {
+    button {
         opacity: 0;
         position: relative;
         left: 2em;
         transition: 0.8s ease-out;
-    } */
+    }
    
     /* text en afbeelding laten zien met opactiy van 1
     met right op  0 */
-    .show--text {
+    .show--content {
         opacity: 1;
         right: 0;
     }
@@ -504,10 +504,10 @@ header svg{
         left: 0;
     }
 
-    .show--image{
+    /* .show--image{
         opacity: 1;
         left: 0;
-    }
+    } */
     
 }
 /*End of hero*/
