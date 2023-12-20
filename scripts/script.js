@@ -1,17 +1,38 @@
-//timeline
-// Voeg een klikgebeurtenis toe aan de cirkels (containers)
-const containers = document.querySelectorAll('.timelinecontainer');
-containers.forEach(container => {
-    container.addEventListener('click', () => {
-        // Verander de zichtbaarheid van de bijbehorende content
-        const content = container.querySelector('.content');
-        if (content.style.visibility === 'hidden' || content.style.visibility === '') {
-            content.style.visibility = 'visible';
+// Timeline
+// circle 1
+let content1 = document.querySelector('.textBox--1');
 
-        } else {
-            content.style.visibility = 'hidden';
-        }
-    });
+let button1 = document.querySelector('.circle--1');
+
+button1.addEventListener('click', function(e) {
+    content1.classList.toggle('invisible');
+});
+
+// circle 2
+let content2 = document.querySelector('.textBox--2');
+
+let button2 = document.querySelector('.circle--2');
+
+button2.addEventListener('click', function(e) {
+    content2.classList.toggle('invisible');
+});
+
+// circle 3
+let content3 = document.querySelector('.textBox--3');
+
+let button3 = document.querySelector('.circle--3');
+
+button3.addEventListener('click', function(e) {
+    content3.classList.toggle('invisible');
+});
+
+// circle 4
+let content4 = document.querySelector('.textBox--4');
+
+let button4 = document.querySelector('.circle--4');
+
+button4.addEventListener('click', function(e) {
+    content4.classList.toggle('invisible');
 });
 
 //Content scroll effect
@@ -58,3 +79,14 @@ function setup() {
     const img = document.querySelector('.img-hero');
     observer.observe(img);
 }
+
+// button shake function
+let buttonRumble = document.querySelector('.form--primary--button');
+
+buttonRumble.addEventListener('mouseover', buttonShake);
+
+function buttonShake() {
+    buttonRumble.classList.toggle('button--rumble');
+    
+}
+
