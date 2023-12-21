@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="scripts/script.js" defer></script>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
@@ -17,16 +18,16 @@
         <nav class="hidden">
             <ul>
                 <li>
-                    <a href="#"> Artikelen</a>
+                    <a href="#over-section">Over</a>
                 </li>
                 <li>
-                    <a href="#"> Timeline</a>
+                    <a href="#timeline-section"> Timeline</a>
                 </li>
                 <li>
-                  <a href="#"> Reviews</a>
+                  <a href="#reviews-section"> Reviews</a>
                 </li>
                 <li>
-                  <a href="#"> Contact</a>
+                  <a href="#contact-contact"> Contact</a>
                 </li>
             </ul>
         </nav>
@@ -56,7 +57,7 @@
 <main>
 <!--Beginning hero-->
 <!--Jesse-->
-    <div class="hero-wrapper">
+    <div class="hero-wrapper" id="over-section">
     <section>
         <div class="text-hero">
             <h1 class="h1-observe">Welkom bij b-RAIN</h1>
@@ -90,34 +91,51 @@
 <!--End of hero-->
 <!--Begin of timeline-->
     <!--Daan-->
-    <section class="timeline">
+    <section class="timeline" id="timeline-section">
       <div class="black--ractangle"></div>
         <div class="white--ractangle">
-         <div class="circle--1"></div>
-         <div class="circle--2"></div>
-         <div class="circle--3"></div>
-         <div class="circle--4"></div>
+         <div class="circle--1">
+            <div class="triangle"></div>
+         </div>
+         <div class="circle--2">
+            <div class="triangle"></div>
+         </div>
+         <div class="circle--3">
+            <div class="triangle"></div>
+         </div>
+         <div class="circle--4">
+            <div class="triangle"></div>
+         </div>
+         <h1 id="timeline-header">Klik op de bolletjes die door de timeline worden aangeduid om meer te weten te komen over b-Rain.</h1>
          <article class="textBox--1 invisible">
-            <h3>b-Rain</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque nulla culpa assumenda distinctio nemo consequatur ipsum deserunt excepturi? Voluptate?</p>
+            <h3>Onderzoek helofytenfilters en natuurlijke zuivering</h3>
+            <p>In dit onderzoek hebben we de theoretische invloed van seizoenen op de effectiviteit van helofytenfilters onderzocht. We hebben dit onderzocht door de biodegradatie-efficiëntie van micro-organismen te meten onder verschillende temperaturen en biocidenconcentraties.</p>
+            <img src="Images/wetland.png.png" class="transparent" alt="">
          </article>
             <article class="textBox--2 invisible">
-               <h3>b-Rain</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque nulla culpa assumenda distinctio nemo consequatur ipsum deserunt excepturi? Voluptate?</p>
+               <h3>Aquathermie</h3>
+               <p>SPATwater is een expert op het gebied van de Kaderrichtlijn Water-normen en is bezig met het aanleggen van een database die mogelijke (Nature-Based-)maatregelen koppelt aan specifieke verontreinigingen. De ontwikkeling en exploitatie van TEO vraagt om een integrale benadering, waarbij draagvlak bij de bewoners en het waterschap essentieel is.
+
+               </p>
+               <img src="Images/Aquathermie.png" class="transparent2" alt="">
             </article>   
             <article class="textBox--3 invisible">
-             <h3>b-Rain</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque nulla culpa assumenda distinctio nemo consequatur ipsum deserunt excepturi? Voluptate?</p>
+             <h3>Europees droogte onderzoek</h3>
+               <p>In Europa veroorzaakt droogte miljarden euro's aan schade in verschillende sectoren, zoals landbouw, transport, toerisme, watervoorziening en energie/industrie. Om een beter inzicht te krijgen in de toekomstige impact van droogte, werken we momenteel samen met de Vrije Universiteit Amsterdam aan de ontwikkeling van een droogtemonitor
+
+               </p>
+               <img src="Images/Droogte.png" class="transparent3" alt="">
             </article>
             <article class="textBox--4 invisible">
-               <h3>b-Rain</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque nulla culpa assumenda distinctio nemo consequatur ipsum deserunt excepturi? Voluptate?</p>
+               <h3>Eteck</h3>
+               <p>Eteck en SPATwater zijn voornemens om voor langere tijd samen te werken en daarmee bij te dragen aan het verbeteren van de waterkwaliteit en het behalen van de KRW-doelen met behulp van toekomstige TEO-installaties. SPATwater onderzoekt daarvoor de komende drie maanden samen met Eteck hoe de waterkwaliteit en de Kaderrichtlijn Water-doelen (KRW) de bedrijfsvoering van Eteck kunnen beïnvloeden.</p>
+               <img src="Images/eteck_pic.png" class="transparent4" alt="">
             </article>   
         </div>
     </section>
 <!--Reviews-->
 <!--Ruben-->
-<div class="article-wrapper">
+<div class="article-wrapper" id="reviews-section">
     <section class="general-article">
         <div>
            <h2>Lees wat andere investeerders van ons vinden!</h2>
@@ -202,7 +220,7 @@
     </div>
    </div>
 <!--End of reviews-->
-<div class="contact-wrapper">
+<div class="contact-wrapper" id="contact-contact">
    <section class="contact--pagina">
       <form action="" alt="contact pagina">
           <h2 alt="contact">Contact</h2>
@@ -227,10 +245,10 @@
       <h3>b-RAIN</h3>
       <ul>
          <li>
-             <a href="#"> Artikelen</a>
+            <a href="https://www.linkedin.com/company/spatwater/" class="fa fa-linkedin"></a>
          </li>
          <li>
-             <a href="#"> Contact</a>
+             <a href="https://www.spatwater.nl/"><img src="Images/logo_spatwater.png" class="fotologo-footer"></a>
          </li>
      </ul>
      <p> b-RAIN all rights served</p>
